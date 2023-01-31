@@ -1,7 +1,6 @@
 .container {
-display: block;
 margin: 0 auto;
-max-width: 300px;
+width: 300px;
 border: 3px;
 border-style: solid;
 }
@@ -15,4 +14,28 @@ border-style: solid;
 .days {
   text-align: center;
   margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.hiTemps {
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lowTemps {
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dates {
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.outro {
+    padding-top: 20px;
 }

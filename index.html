@@ -12,11 +12,30 @@
 <body>
     <div class="container">
 
+         <span class="engine">
         <div class="search">
 <form id="search-form"><input type="text" placeholder="Enter a City" autocomplete="off" autofocus="on"/></form>
 <button type="button" class="btn btn-success">Search</button> </div>
+</span>
+
+<br />
+      <br/>
+
+      <h1>
+        <div class="temp" id="real-Temp"></div>
+        <div id="city">Miami</div>
+      </h1>
 
 
+      <div class="row">
+        <div class="col-6"><p id="currently"> Day</p></div>
+        <div class="col-6"><p id="Humidity"> Humidity: </p></div>
+            </div>
+
+            <div class="row">
+                 <div class="col-6"><p id=""></p></div>
+                <div class="col-6"><p id="Wind"> Wind: </p></div>
+            </div>
 
 
 <div class="days"
@@ -30,9 +49,50 @@
         <div class="col-1"><p class="day">Sun</p></div>
       </div>
 
+<div class="hiTemps">
+      <div class="row">
+        <div class="col-1"><p class="monT">85°</p></div>
+        <div class="col-1"><p class="tueT">76°</p></div>
+        <div class="col-1"><p class="wedT">78°</p></div>
+        <div class="col-1"><p class="thurT">76°</p></div>
+        <div class="col-1"><p class="friT">75°</p></div>
+         <div class="col-1"><p class="satT">76°</p></div>
+        <div class="col-1"><p class="sunT">75°</p></div>
+      </div>
+</div>
+
+
+<div class="dates"
+>      <div class="row">
+        <div class="col-1"> <p class="emoji">🏖️ </p></div>
+        <div class="col-1"><p class="emoji">☀️</p></div>
+        <div class="col-1"><p class="emoji">🌞</p></div>
+        <div class="col-1"><p class="emoji">☀️</p></div>
+        <div class="col-1"><p class="emoji">⛅</p></div>
+        <div class="col-1"><p class="emoji">☀️</p></div>
+        <div class="col-1"><p class="emoji">⛅</p></div>
+      </div>
+      <br />
+
+
+
+<div class="lowTemps">
+      <div class="row">
+        <div class="col-1"><p class="monTL">85°</p></div>
+        <div class="col-1"><p class="tueTL">76°</p></div>
+        <div class="col-1"><p class="wedTL">78°</p></div>
+        <div class="col-1"><p class="thurTL">76°</p></div>
+        <div class="col-1"><p class="friTL">75°</p></div>
+         <div class="col-1"><p class="satTL">76°</p></div>
+        <div class="col-1"><p class="sunTL">75°</p></div>
+      </div>
+</div>
+
 
 
     </div>
+  
+    <p class="outro"> Coded by <a href=""> Milinda Smith</a> & is <a href="">open-sourced on Github</a> and <a href=""> hosted on Netlify</a></p>
    <script src="src/index.js"></script>
 </body>
 </html>
