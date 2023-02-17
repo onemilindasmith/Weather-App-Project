@@ -13,6 +13,12 @@ font-family: Arial, Helvetica, sans-serif;
     
 }
 
+.dets {
+ color: lightsalmon;
+ line-height: 28px; 
+}
+
+
 
 .days {
   text-align: center;
