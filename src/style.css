@@ -29,7 +29,7 @@ padding: 0;
   left: -40px;
   position: relative;
    font-size: 40px;
-  color: brown;
+  color: rgb(255, 187, 0);
 }
 
 
@@ -37,7 +37,7 @@ padding: 0;
 
 .temperature {
    font-size: 40px;
-  color: brown;
+  color: rgb(218, 186, 99);
 
 }
 
@@ -52,7 +52,7 @@ padding: 0;
 .today {
   line-height: 22px;
   list-style: none;
-   color: green;
+ 
    position: relative;
    top: 25px;
    font-size: 16px;
@@ -64,7 +64,7 @@ padding: 0;
   margin: 0 auto;
   line-height: 22px;
   list-style: none;
-   color: green;
+   
    position: relative;
    top: -35px;
    left: 20px;
