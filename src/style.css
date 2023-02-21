@@ -6,11 +6,12 @@ padding: 20px;
 border: 3px;
 border-style: solid;
 font-family: Arial, Helvetica, sans-serif;
+color: gold;
 }
 
 .search {
     padding-top: 20px;
-    margin-bottom: 0;    
+    margin-bottom: 0;  
 }
 
 .sundown {
@@ -30,6 +31,7 @@ padding: 0;
   position: relative;
    font-size: 40px;
   color: rgb(255, 187, 0);
+  
 }
 
 
@@ -38,6 +40,7 @@ padding: 0;
 .temperature {
    font-size: 40px;
   color: rgb(218, 186, 99);
+  font-weight: bold;
 
 }
 
@@ -52,11 +55,11 @@ padding: 0;
 .today {
   line-height: 22px;
   list-style: none;
- 
    position: relative;
    top: 25px;
    font-size: 16px;
    padding: 0px;
+   color: gray;
 }
 
 .detsA {
@@ -64,7 +67,7 @@ padding: 0;
   margin: 0 auto;
   line-height: 22px;
   list-style: none;
-   
+   color: gray;
    position: relative;
    top: -35px;
    left: 20px;
@@ -78,7 +81,8 @@ padding: 0;
   padding-top: 20px;
   text-align: center;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  color: black;
 
 }
 
@@ -86,14 +90,14 @@ padding: 0;
   
   text-align: center;
 font-size: 20px;
-color: brown;
+color: rgb(235, 153, 3);
 
 }
 
 .lowTemps {
 
   text-align: center;
-  color: blue;
+  color: darkcyan;
   font-size: 20px;
 }
 
@@ -111,4 +115,12 @@ color: brown;
     padding-top: 0px;
     text-align: center;
     margin: 0 auto;
+}
+
+.milinda {
+  color: green;
+}
+
+.github {
+  color: green;
 }
