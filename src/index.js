@@ -31,12 +31,23 @@ function displayTemperature(response){
       dateElement.innerHTML = formatDate(response.data.dt * 1000); 
       iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
       iconElement.setAttribute("alt", response.data.weather[0].description);
-      
+
 }
 
 
+function search(city) {
 let apiKey = "2f906aae967043ed6fad7710871d5c58";
-let city = "Miami"
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
-
 axios.get(apiUrl).then(displayTemperature);
+}
+
+function handleSubmit(event) {
+    event.preventDefault();
+    let cityInputElement = document.querySelector("#city-input");
+    search(cityInputElement.value);
+}
+
+search("Miami");
+
+let form = document.querySelector("#engine");
+form.addEventListener("submit", handleSubmit);
