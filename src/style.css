@@ -10,30 +10,34 @@ font-family: Arial, Helvetica, sans-serif;
 
 .search {
     padding-top: 20px;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;    
 }
 
 .sundown {
 max-width: 100px;
+left: -20px;
+padding: 0;
 }
 
 .weather-temp img {
   margin-right: 20px;
+  position: relative;
+ 
 }
 
-.float-left strong {
-  font-size: 50px;
-  font-weight: 300;
-  
-}
-
-.float-left {
-  display: inline-block;
-  margin: 0 auto;
+.city {
+  left: -40px;
+  position: relative;
+   font-size: 40px;
   color: brown;
-  padding: 0px;
+}
 
+
+
+
+.temperature {
+   font-size: 40px;
+  color: brown;
 
 }
 
@@ -45,43 +49,39 @@ max-width: 100px;
 
 
 
-.dets .cityA {
-  font-size: 40px;
-  line-height: 40px; 
-  color: brown;
-
-}
-
-.dets .col-6 {
- color: lightsalmon;
- line-height: 5px; 
-
+.today {
+  line-height: 20px;
+  list-style: none;
+   color: lightsalmon;
+   position: relative;
+   top: 20px;
+   font-size: 16px;
 }
 
 .detsA {
   text-align: center;
   margin: 0 auto;
-  line-height: 20px;
+  line-height: 22px;
   list-style: none;
    color: lightsalmon;
-
+   position: relative;
+   top: -20px;
+   font-size: 16px;
 }
 
 
+
 .days {
-  text-align: center;
-  margin: 0 auto;
+  
   padding-top: 20px;
   text-align: center;
   font-size: 20px;
   font-weight: 600;
- 
 
 }
 
 .hiTemps {
-  text-align: center;
-  margin: 0 auto;
+  
   text-align: center;
 font-size: 20px;
 color: brown;
@@ -89,8 +89,7 @@ color: brown;
 }
 
 .lowTemps {
-  text-align: center;
-  margin: 0 auto;
+
   text-align: center;
   color: blue;
   font-size: 20px;
@@ -102,7 +101,11 @@ color: brown;
   text-align: center;
 }
 
+.forecast {
+    padding-left: 25px;
+
 .outro {
     padding-top: 0px;
-    text-align: center;
-}
+  text-align: center;
+    margin: 0 auto;
+  }
